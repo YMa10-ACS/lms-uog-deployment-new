@@ -65,7 +65,7 @@ jobs:
           cat > sonar-project.properties << 'EOL'
           sonar.organization=${{ secrets.SONAR_ORGANIZATION }}
           sonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
-          sonar.projectName=LMS System
+          sonar.projectName=lms-ugo-development-new
 
           sonar.sources=frontend-react/src,backend-flask
           sonar.tests=frontend-react/src/__tests__,backend-flask/tests
